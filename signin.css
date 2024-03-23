@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;  
+    display:flex;
+}
+.header {
+    background: black;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    height: 600px;
+    margin-left: 15%;
+    margin-top: 70px;
+    color: white;
+    /* border: 1px solid white; */
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+    margin-left: 150px;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 50%;
+    height: 40px;
+    padding: 8px;
+    margin-bottom: 10px;
+    margin-left: 150px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  
+   
+}
+.btn1 {
+    background-color: white;
+    color:black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 150px;
+    margin-top: 70px;
+    margin-bottom: -60px;
+    width: 150px;
+    font-size: 18px;
+}
+
+.btn1:hover {
+    background-color: #45a049;
+    color: white;
+}
+.header p {
+    font-size: 20px;
+    text-align: center;
+}
+.error {
+    background-color: #f2dede;
+    color: #a94442;
+    padding: 10px;
+    width: 90%;
+    border-radius: 5px;
+}
+p{
+    margin-bottom: 80px;
+    margin-top: 40px;
+}
+a{text-decoration:solid;
+    font-size: 20px;
+    color: white;
+    margin-left: 40px;
+}
+.pics{
+    height:400px;
+    width: 30%;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+img{
+    height:400px;
+    width: 100%; 
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+
